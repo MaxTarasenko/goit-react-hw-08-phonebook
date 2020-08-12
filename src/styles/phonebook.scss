@@ -1,0 +1,19 @@
+.phonebook-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  & h1 {
+    font-size: 3vw;
+  }
+  & h2 {
+    font-size: 2vw;
+  }
+  & h1,
+  h2 {
+    color: #3f51b5;
+    text-align: center;
+    font-weight: bold;
+    font-family: helvetica, sans-serif;
+    margin-bottom: 0px;
+  }
+}

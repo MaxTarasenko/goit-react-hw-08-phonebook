@@ -1,0 +1,26 @@
+.nav {
+  border-radius: 5px;
+  padding: 20px 50px;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: #3f51b5;
+  margin: 0 auto;
+  box-shadow: 0px 5px 13px -7px #000000, 5px 5px 15px 5px;
+  &_buttons {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-between;
+  }
+  &_link {
+    text-decoration: none;
+    color: rgb(161, 199, 255);
+    font-weight: bold;
+    font-family: helvetica, sans-serif;
+    font-size: 20px;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+      1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+}
